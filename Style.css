@@ -1,67 +1,95 @@
-li{
-    color: rgb(2, 2, 76);
+li {
+    color: #02024c;
 }
 
-body{
-    font-weight: 400;
-    font-family: Lato, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 2.2em;
-    color: #818181;
-    margin: 0;
-}
 
-header{
-    background-color: yellow;
-}
-
-section, footer{
-    margin: 40px;
-}
-
-h1{
+h1 {
     font-size: 63px;
     color: #303030;
     padding: 15px;
     text-align: center;
 }
 
-h2{
-    font-size: 24px;
-    text-transform: uppercase;
+h2 {
+    font-size: 54px;
     color: #303030;
     font-weight: 600;
 }
-
-nav li a{
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-
+.carousel-caption h5{
+font-size: 90px;
+color: #ffc107;
+text-shadow: 2px 2px 2px black;
 }
+.carousel-caption h6{
+    font-size: 40px;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px black;
+    }
 
-nav li{
-    float: left;
+.col-sm-4 h3{
+text-align: left;
 }
-
-nav ul{
-    float: right;
-    list-style: none;
-}
-
-nav{
-    font-size: 12px;
-    letter-spacing: 4px;
-    height: 10px;
-    background-color: #f4f4f4;
-    padding-right: 40px;
-}
-
-#capa{
-    width: 100%;
-    height: 400PX;
-    background-image: url(imagens/Logo.jpg);
+.prod {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
     background-size: cover;
     background-position: center;
-
+}
+.tamanho{
+    max-height: 250px;
+    max-width: 100%;
+}
+.removePad{
+    padding: 0px;
+    margin: 0px;
+}
+.tamanhoSlide{
+max-height: 600px;
+padding: 0px;
+margin: 0px;
+}
+.tamanhoItemSlide{
+    max-width: 100%;
+    align-content: center;
+    }
+.cardTitle{
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.card{
+    padding: 8px;
+    margin: 8px;
+}
+.F-QS {
+    width: 200px;
+    height: 200PX;
+    background-image: url(/Imagens/Qsomos.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.F-W {
+    width: 200px;
+    height: 200PX;
+    background-image: url(/Imagens/Time/Wilka.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.F-L {
+    width: 200px;
+    height: 200PX;
+    background-image: url(/Imagens/Time/Wellany.jpeg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.F-M {
+    width: 200px;
+    height: 200PX;
+    background-image: url(/Imagens/Time/Maria.jpeg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
 }
